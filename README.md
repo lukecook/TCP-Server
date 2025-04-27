@@ -25,3 +25,6 @@ Compile the server using: g++ -std=c++17 server.cpp -o server
 3. Once the server is running, open a new terminal and connect using netcat: nc localhost <port#>
 4. Type messages and press Enter to send them. The server will echo back your messages.
 5. To disconnect, press Ctrl+C in the client terminal. The server will display a disconnection message and close the socket.
+
+## Credits
+This program was heavily inspired by Benedikt Thordarson c++ tutorial on basic TCP server. Watch his video explaining this program to learn more!
